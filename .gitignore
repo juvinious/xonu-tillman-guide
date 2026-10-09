@@ -1,0 +1,14 @@
+# Keep private captures and device backups outside the repository as well.
+/private/
+/captures/
+*.pcap
+*.pcapng
+*.tgz
+*.tar.gz
+*.zip
+*.pem
+*.key
+*.uci
+fwenv.txt
+__pycache__/
+.DS_Store

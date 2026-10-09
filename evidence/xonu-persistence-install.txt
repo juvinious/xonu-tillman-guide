@@ -1,0 +1,22 @@
+VLAN hook monitor started: PID 31072
+INSTALLED: profile persisted; VLAN daemon in hook-only mode.
+OMCI was not restarted. Reconnect/reboot recovery is not yet tested.
+BOOT PROFILE (raw mib_file environment variable)
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+CURRENT UCI PROFILE
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+VLAN MODE (2 = custom hook only)
+2
+PROFILE CHECKSUM
+c6df242aa457421b980c6c6d685669c6800965fb948ec5d0e81bb34818ed6020  /ptconf/8311/xonu-persistence/veip-aligned.ini
+HOOK CHECKSUM
+0b7c3730629078f80a3f8518f05636e5d3250a878abc211ff442ffa4f3c08872  /ptconf/8311/vlan_fixes_hook.sh
+GEM ENCRYPTION (03 expected while provisioned)
+errorcode=0 attr_data=03 
+GEM COUNTERS
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1211            58128           1197            57456           0              
+1               2046            0               0               0               0               0              
+2               1028            35121           9738157         47396           27502159        3036           
+RECENT HOOK MONITOR OUTPUT

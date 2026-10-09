@@ -1,0 +1,20 @@
+31072 root      1548 S    {8311-vlansd.sh} /bin/sh /usr/sbin/8311-vlansd.sh
+BOOT PROFILE (raw mib_file environment variable)
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+CURRENT UCI PROFILE
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+VLAN MODE (2 = custom hook only)
+2
+PROFILE CHECKSUM
+c6df242aa457421b980c6c6d685669c6800965fb948ec5d0e81bb34818ed6020  /ptconf/8311/xonu-persistence/veip-aligned.ini
+HOOK CHECKSUM
+0b7c3730629078f80a3f8518f05636e5d3250a878abc211ff442ffa4f3c08872  /ptconf/8311/vlan_fixes_hook.sh
+GEM ENCRYPTION (03 expected while provisioned)
+errorcode=0 attr_data=03 
+GEM COUNTERS
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1217            58416           1200            57600           0              
+1               2046            0               0               0               0               0              
+2               1028            46715           12927896        60498           34184462        3036           
+RECENT HOOK MONITOR OUTPUT

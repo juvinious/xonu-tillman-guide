@@ -1,0 +1,36 @@
+BEFORE
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1200            57600           1191            57168           0              
+1               2046            0               0               0               0               0              
+2               1028            233             51116           3035            568237          3035           
+CHANGE
+errorcode=0
+errorcode=0 attr_data=03 
+61: gem1028@pon0: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc pfifo_fast state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether [REDACTED_MAC] brd [REDACTED_MAC] promiscuity 0 
+    gem idx: 2 id: 1028 traffic type: 0 dir: 3 enc: 3 max size: 4095 tcont: tcont32768 mc: 0 bp: 11 ctp: 12 addrgenmode eui64 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 
+SNAPSHOT_1
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1200            57600           1191            57168           0              
+1               2046            0               0               0               0               0              
+2               1028            234             51250           3036            568337          3036           
+SNAPSHOT_2
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1203            57744           1193            57264           0              
+1               2046            0               0               0               0               0              
+2               1028            3317            1006299         7392            4297422         3036           
+SNAPSHOT_3
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1203            57744           1193            57264           0              
+1               2046            0               0               0               0               0              
+2               1028            5049            1575162         9962            6286182         3036           
+SNAPSHOT_4
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               1203            57744           1193            57264           0              
+1               2046            0               0               0               0               0              
+2               1028            9349            2482396         17652           12471106        3036           

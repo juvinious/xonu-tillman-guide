@@ -1,0 +1,59 @@
+ 15:13:57 up 2 min,  load average: 1.01, 0.56, 0.21
+ 2860 root      1548 S    {8311-vlansd.sh} /bin/sh /usr/sbin/8311-vlansd.sh
+Page: Status
+OPTION                                              VALUE
+PON IP HW version                                  : 7
+PON IP FW version                                  : 3.21.0.3.16-1674463172
+PON IP SW version                                  : 1.22.9
+PON IP pontop version                              : 1.7.2
+ 
+SW uptime                                          : t.b.d
+ 
+PON type active                                    : t.b.d
+ 
+PON capability                                     : 000731f9
+   GEM Ports                                       : 256
+     Allocations                                   : t.b.d xGPON mode currently not supported
+     LLIDs                                         : t.b.d xEPON mode currently not supported
+ 
+PON PLOAM Status                                   : O5.1, Associated state
+ 
+ 
+FEC upstream                                       : ON
+FEC downstream                                     : ON
+ 
+ONU Authentication Status                          : 0
+ 
+OC Structure contents
+---------------------
+PON ID                                             : 0x00000000
+TOL                                                : 6.6 dBm
+RE                                                 : No reach extender present
+ODN Class                                          : N2
+DS FEC                                             : Downstream FEC enabled
+P                                                  : TC mode is G.989.3
+Link Type                                          : Unspecified
+Administrative Label                               : 0x00000000
+DWLCH ID                                           : 0x0
+R                                                  : value not available
+C                                                  : value not available
+BOOT PROFILE (raw mib_file environment variable)
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+CURRENT UCI PROFILE
+/ptconf/8311/xonu-persistence/veip-aligned.ini
+VLAN MODE (2 = custom hook only)
+2
+PROFILE CHECKSUM
+c6df242aa457421b980c6c6d685669c6800965fb948ec5d0e81bb34818ed6020  /ptconf/8311/xonu-persistence/veip-aligned.ini
+HOOK CHECKSUM
+0b7c3730629078f80a3f8518f05636e5d3250a878abc211ff442ffa4f3c08872  /ptconf/8311/vlan_fixes_hook.sh
+GEM ENCRYPTION (03 expected while provisioned)
+errorcode=0 attr_data=03 
+GEM COUNTERS
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               168             8064            168             8064            0              
+1               2046            0               0               0               0               0              
+2               1028            6481            2007608         9764            8286791         4              
+RECENT HOOK MONITOR OUTPUT
+Fri Sep 19 15:13:26 2025 user.notice xonu-encryption: Applied downstream-only encryption to GEM 1028

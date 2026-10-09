@@ -1,0 +1,10 @@
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               168             8064            168             8064            0              
+1               2046            0               0               0               0               0              
+2               1028            12469           3814967         16616           12104937        4              
+Page: GEM/XGEM Port Counters
+GEM Index       GEM ID          u/s packets     u/s bytes       d/s packets     d/s bytes       Key Errors     
+0               4               168             8064            168             8064            0              
+1               2046            0               0               0               0               0              
+2               1028            14753           4482568         20583           16133453        4              
